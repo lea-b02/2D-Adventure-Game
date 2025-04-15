@@ -20,13 +20,13 @@ public class PickUpItem : MonoBehaviour
         if (uiObject != null)
         {
             interactUI = uiObject.GetComponent<TMP_Text>();
-            //Debug.Log("interactUI trouvé : " + interactUI);
+            //Debug.Log("interactUI trouvÃ© : " + interactUI);
             //interactUI.gameObject.SetActive(false);
 
         }
         else
         {
-            Debug.LogError("Aucun objet avec le tag 'interactUI' trouvé !");
+            Debug.LogError("Aucun objet avec le tag 'interactUI' trouvÃ© !");
         }
 
         if (interactUI == null)
