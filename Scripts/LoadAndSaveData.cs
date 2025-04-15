@@ -24,12 +24,12 @@ public class LoadAndSaveData : MonoBehaviour
 
         if (currentSceneName == "Level01")
         {
-            // Remise à zéro des pièces si on est dans le Level01
+            // Remise Ã  zÃ©ro des piÃ¨ces si on est dans le Level01
             Inventory.instance.coinsCount = 0;
         }
         else
         {
-            // Sinon, on récupère ce qui a été sauvegardé
+            // Sinon, on rÃ©cupÃ¨re ce qui a Ã©tÃ© sauvegardÃ©
             Inventory.instance.coinsCount = PlayerPrefs.GetInt("coinsCount", 0);
         }
 
